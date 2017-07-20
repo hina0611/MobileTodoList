@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <!-- For list title   -->
+    <RelativeLayout
+        android:id="@+id/rl_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/floating_window_margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/floating_window_margin_top"
+            android:layout_marginTop="@dimen/floating_window_margin_top"
+            android:layout_toRightOf="@+id/img_title"
+            android:text="title"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/text_size" />
+
+        <ImageView
+            android:id="@+id/img_title"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher_main" />
+
+    </RelativeLayout>
+
+
+    <!-- For list date  -->
+    <RelativeLayout
+        android:id="@+id/rl_list_items_date"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/floating_window_margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_toRightOf="@+id/img_date"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPurple"
+            android:layout_marginLeft="@dimen/floating_window_margin_top"
+            android:layout_marginTop="@dimen/floating_window_margin_top"/>
+
+        <ImageView
+            android:id="@+id/img_date"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_calender"
+            android:gravity="left"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+    <!-- For list priority -->
+    <RelativeLayout
+        android:id="@+id/rl_list_items_time"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/floating_window_margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority"
+            android:layout_toRightOf="@+id/img_time"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPurple"
+            android:layout_marginLeft="@dimen/floating_window_margin_top"
+            android:layout_marginTop="@dimen/floating_window_margin_top"/>
+
+        <ImageView
+            android:id="@+id/img_time"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_pripoity_icon"
+            android:gravity="left"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+    <!-- For list description -->
+    <RelativeLayout
+        android:id="@+id/rl_list_items_note"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/floating_window_margin_bottom">
+
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="note"
+            android:layout_toRightOf="@+id/img_note"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPurple"
+            android:layout_marginLeft="@dimen/floating_window_margin_top"
+            android:layout_marginTop="@dimen/floating_window_margin_top"/>
+
+        <ImageView
+            android:id="@+id/img_note"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_add_icon"
+            android:gravity="left"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+    <!-- For list note -->
+    <RelativeLayout
+        android:id="@+id/rl_list_items_delete"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/floating_window_margin_bottom">
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_delete"
+            android:gravity="right"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:id="@+id/img_edit_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher_edit"
+            android:gravity="right"
+            android:scaleType="fitXY"
+            android:layout_toLeftOf="@id/img_delete"/>
+
+
+        </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorBlack" />
+</LinearLayout>
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Items</string>
+    <string name="showing_splash_screen">Showing Splash Screen</string>
+    <string name="task_name">Task Name:</string>
+    <string name="task_hint">Enter your task here</string>
+    <string name="task_due_date">Due Date:</string>
+    <string name="task_note">Note:</string>
+    <string name="add_menu_item">Add</string>
+
+    <string-array name="status_array">
+        <item>To Do</item>
+        <item>Done</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>High</item>
+        <item>Regular</item>
+        <item>Low</item>
+    </string-array>
+</resources>
