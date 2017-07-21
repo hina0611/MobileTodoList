@@ -29,7 +29,7 @@ reflected in the todo list.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Todo_List.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='My_Item.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
