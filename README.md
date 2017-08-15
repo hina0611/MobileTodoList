@@ -31,6 +31,27 @@ Here's a walkthrough of implemented user stories:
 
 <img src='My_Item.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+**Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
+
+As we all know Android app development platform is growing everyday. If I compare with platforms in the past there are plenty of changes happened till now.
+First of all, android applications are very user friendly and is easy to use, is just because of the enhancement and new versions. Android provide lots of UI components for android developers to design graphic user interface (UI) in android application. Layout and UI is not much difficult in android because it provides lots of components to build good application.
+Like now favorite is the app search bar. Where you just type words into, and Android searches your app collection for any apps with that name, Fingerprint, Google pay these are my favorite items.
+Like now we have Recycler and Card view which is very useful as compare with table layout and others in android. For Input controls apart from Image, Radio, Toggle button now we have  Rating bar, Spinner, Date and Time picker which won’t take much time for implementation and is very user friendly.
+Also there are Toast, Dialog, advance navigation, action bar and menu, which make the app user friendly and interactive.
+We also have many useful support libraries, which make developers work easy to implement.
+
+**Question 2:**"Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
+
+Adapter in android is helpful to create a layer between UI components and the data source that fill data into the UI components 
+For instance: If I want to display the list of items in my application and If I use List View. This List view doesn’t contain any data, in reality is just a UI element without any data, which we initialize first in xml file. With the help of Adapter, you can display the list of items. List View contain it’s own adapter which help to display the data.
+Adapter includes various methods to communicate data to the List View.
+Adapter can be customize also means you can create your adapter by implementing Base Adapter. In short, An adapter is an object that provides views for a list view. It help to populate the data and display on. the UI. You can use custom adapters or you can use it’s own methods.
+Lastly, convert View is used to reuse old view.
+
+Describe any challenges encountered while building the app.
+I dont' believe so I had the problems which took a very long time for me to resolve it but it seems very interesting to me.
+Looking forward to get response from you.
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
